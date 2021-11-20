@@ -1,0 +1,10 @@
+C:\Users\thile\source\repos\testapp1\BasicContronl\bin\Debug\BasicContronl.exe.config
+C:\Users\thile\source\repos\testapp1\BasicContronl\bin\Debug\BasicContronl.exe
+C:\Users\thile\source\repos\testapp1\BasicContronl\bin\Debug\BasicContronl.pdb
+C:\Users\thile\source\repos\testapp1\BasicContronl\obj\Debug\BasicContronl.csprojAssemblyReference.cache
+C:\Users\thile\source\repos\testapp1\BasicContronl\obj\Debug\BasicContronl.FrmMathBasic.resources
+C:\Users\thile\source\repos\testapp1\BasicContronl\obj\Debug\BasicContronl.Properties.Resources.resources
+C:\Users\thile\source\repos\testapp1\BasicContronl\obj\Debug\BasicContronl.csproj.GenerateResource.cache
+C:\Users\thile\source\repos\testapp1\BasicContronl\obj\Debug\BasicContronl.csproj.CoreCompileInputs.cache
+C:\Users\thile\source\repos\testapp1\BasicContronl\obj\Debug\BasicContronl.exe
+C:\Users\thile\source\repos\testapp1\BasicContronl\obj\Debug\BasicContronl.pdb

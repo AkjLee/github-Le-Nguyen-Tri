@@ -44,14 +44,16 @@ namespace Userfrom
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
             ((System.ComponentModel.ISupportInitialize)(this.Avartar)).BeginInit();
             this.groupBox1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
             // Avartar
             // 
             this.Avartar.Image = global::Userfrom.Properties.Resources.Windows_10___4_;
-            this.Avartar.Location = new System.Drawing.Point(60, 65);
+            this.Avartar.Location = new System.Drawing.Point(27, 37);
             this.Avartar.Name = "Avartar";
             this.Avartar.Size = new System.Drawing.Size(133, 131);
             this.Avartar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -64,7 +66,7 @@ namespace Userfrom
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Times New Roman", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.Coral;
-            this.label1.Location = new System.Drawing.Point(204, 37);
+            this.label1.Location = new System.Drawing.Point(171, 9);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(184, 25);
             this.label1.TabIndex = 1;
@@ -85,9 +87,9 @@ namespace Userfrom
             this.groupBox1.Controls.Add(this.label5);
             this.groupBox1.Controls.Add(this.label4);
             this.groupBox1.Controls.Add(this.label2);
-            this.groupBox1.Location = new System.Drawing.Point(199, 65);
+            this.groupBox1.Location = new System.Drawing.Point(166, 37);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(398, 325);
+            this.groupBox1.Size = new System.Drawing.Size(489, 246);
             this.groupBox1.TabIndex = 2;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Lý lịch";
@@ -146,7 +148,7 @@ namespace Userfrom
             this.ttQuequan.Location = new System.Drawing.Point(118, 156);
             this.ttQuequan.Multiline = true;
             this.ttQuequan.Name = "ttQuequan";
-            this.ttQuequan.Size = new System.Drawing.Size(199, 153);
+            this.ttQuequan.Size = new System.Drawing.Size(199, 67);
             this.ttQuequan.TabIndex = 1;
             this.ttQuequan.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
@@ -205,21 +207,31 @@ namespace Userfrom
             this.label2.TabIndex = 0;
             this.label2.Text = "Ngày tháng năm:";
             // 
-            // FrmUser
+            // dataGridView1
+            // 
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Location = new System.Drawing.Point(12, 295);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.Size = new System.Drawing.Size(643, 150);
+            this.dataGridView1.TabIndex = 3;
+            // 
+            // Userfrom
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(667, 457);
+            this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.Avartar);
             this.Font = new System.Drawing.Font("Times New Roman", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Name = "FrmUser";
+            this.Name = "Userfrom";
             this.Text = "Thông tin cá nhân";
             this.Load += new System.EventHandler(this.FrmUser_Load);
             ((System.ComponentModel.ISupportInitialize)(this.Avartar)).EndInit();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -242,6 +254,7 @@ namespace Userfrom
         private System.Windows.Forms.TextBox ttQuequan;
         private System.Windows.Forms.TextBox ttNoisinh;
         private System.Windows.Forms.DateTimePicker dtpNgaySinh;
+        private System.Windows.Forms.DataGridView dataGridView1;
     }
 }
 

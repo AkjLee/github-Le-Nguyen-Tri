@@ -1,0 +1,11 @@
+C:\Users\thile\source\repos\testapp1\Userfrom\bin\Debug\Userfrom.exe.config
+C:\Users\thile\source\repos\testapp1\Userfrom\bin\Debug\Userfrom.exe
+C:\Users\thile\source\repos\testapp1\Userfrom\bin\Debug\Userfrom.pdb
+C:\Users\thile\source\repos\testapp1\Userfrom\obj\Debug\Userfrom.csprojAssemblyReference.cache
+C:\Users\thile\source\repos\testapp1\Userfrom\obj\Debug\Userfrom.Properties.Resources.resources
+C:\Users\thile\source\repos\testapp1\Userfrom\obj\Debug\Userfrom.csproj.GenerateResource.cache
+C:\Users\thile\source\repos\testapp1\Userfrom\obj\Debug\Userfrom.csproj.CoreCompileInputs.cache
+C:\Users\thile\source\repos\testapp1\Userfrom\obj\Debug\Userfrom.exe
+C:\Users\thile\source\repos\testapp1\Userfrom\obj\Debug\Userfrom.pdb
+C:\Users\thile\source\repos\testapp1\Userfrom\obj\Debug\Userfrom.FrmUser.resources
+C:\Users\thile\source\repos\testapp1\Userfrom\obj\Debug\Userfrom.Userfrom.resources

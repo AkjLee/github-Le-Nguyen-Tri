@@ -69,7 +69,7 @@ namespace Userfrom
         public Userfrom(String idStudent = "1")
         {
             InitializeComponent();
-            student = student.Get(idStudent);
+            student = Student.Get(idStudent);
             if(student == null)
             {
                 MessageBox.Show($"Khong tin thay Student co ma la {idStudent}", "Thong bao", MessageBoxButtons.OK, MessageBoxIcon.Error);
